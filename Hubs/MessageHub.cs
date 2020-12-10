@@ -1,9 +1,11 @@
 using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.SignalR;
 
 namespace Demo.AspNetCore.SignalR
 {
+    [Authorize]
     public class MessageHub : Hub
     {
         public Task SendMessageToAll(string message)
