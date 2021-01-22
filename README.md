@@ -1,1 +1,1 @@
-# demo-aspnetcore-signalR
+# Basic Asp.Net Core demonstating a signalR workflow
